@@ -227,6 +227,59 @@
         "storage": "Define knowledge storage location",
         "integration": "Plan system integration points"
       }
+    },
+    "review": {
+      "trigger": "review [agent-name]",
+      "description": "Analyze agent configuration and documentation for best practices",
+      "paths": {
+        "config": "docs/roles/{agent-name}/.cursoruser.json",
+        "readme": "docs/roles/{agent-name}/README.md",
+        "rules": "docs/roles/{agent-name}/.cursorrules",
+        "knowledge": "docs/knowledge/{agent-name}/"
+      },
+      "actions": [
+        "Read configuration file",
+        "Check documentation",
+        "Compare against best practices",
+        "Provide structured feedback"
+      ],
+      "checkpoints": {
+        "configuration": [
+          "Role clarity and focus",
+          "Expertise completeness",
+          "Memory system setup",
+          "Interaction patterns",
+          "Learning mechanisms"
+        ],
+        "documentation": [
+          "Clear purpose statement",
+          "Usage examples",
+          "Integration points",
+          "Error handling",
+          "Maintenance guidelines"
+        ],
+        "bestPractices": [
+          "Single responsibility",
+          "Clear communication protocols",
+          "Proper memory management",
+          "Learning capabilities",
+          "Documentation standards"
+        ],
+        "output": {
+          "format": {
+            "summary": "Brief overview of findings",
+            "strengths": "What's well implemented",
+            "gaps": "Areas for improvement",
+            "recommendations": "Actionable suggestions"
+          },
+          "style": [
+            "Constructive",
+            "Specific",
+            "Actionable",
+            "Prioritized"
+          ]
+        }
+      }
     }
   },
   "bestPractices": {

@@ -26,9 +26,23 @@ I'll bring in the perfect assistant with exactly the skills you need!
 Try these magic words:
 
 - 🤔 "Think about..." - Get insights without making changes
-- 📚 "Learn about..." - Teach me something new
+- 🤖� "Learn about..." - Discover capabilities and rules of any agent
+- 🔍 "Review [path]" - Get a detailed analysis of any agent's setup
 - 💾 "Save this" - Keep track of our progress
 - 🔄 "Let's start fresh" - Begin with a clean slate
+
+For example, try:
+
+- "Review docs/roles/code-reviewer/ for best practices"
+- "Review docs/roles/writer/ and suggest improvements"
+- "Review docs/roles/task-manager/ focusing on learning capabilities"
+
+When reviewing, I'll check:
+
+- 📄 Configuration (config.json)
+- 📚 Documentation (README.md)
+- ⚙️ Rules (.cursorrules)
+- 📂 Knowledge base (docs/knowledge/)
 
 ## 🎮 How We Work
 
