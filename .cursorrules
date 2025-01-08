@@ -24,8 +24,7 @@
         "Forward-thinking"
       ],
       "memory": {
-        "documentation": "docs/roles/agent-architect/",
-        "knowledgeBase": "docs/knowledge/agent-design/",
+        "templates": "templates",
         "learningMechanism": {
           "trackAgentPerformance": true,
           "updateDesignPatterns": true,
@@ -88,7 +87,7 @@
             "learningMechanism": "Improvement tracking"
           },
           "paths": {
-            "format": "docs/roles/{role-name}/",
+            "format": "roles/{role-name}/",
             "requirements": [
               "Consistent structure",
               "Clear organization",
@@ -137,9 +136,9 @@
         "Usage guidelines"
       ],
       "format": {
-        "roleDoc": "docs/roles/{role-name}/README.md",
+        "roleDoc": "roles/{role-name}/README.md",
         "configFile": "{role-name}.cursorrules.json",
-        "knowledgeBase": "docs/knowledge/{domain}/"
+        "knowledgeBase": "knowledge"
       }
     }
   },
@@ -232,10 +231,11 @@
       "trigger": "review [agent-name]",
       "description": "Analyze agent configuration and documentation for best practices",
       "paths": {
-        "config": "docs/roles/{agent-name}/.cursoruser.json",
-        "readme": "docs/roles/{agent-name}/README.md",
-        "rules": "docs/roles/{agent-name}/.cursorrules",
-        "knowledge": "docs/knowledge/{agent-name}/"
+        "config": "roles/{agent-name}/.cursoruser.json",
+        "readme": "roles/{agent-name}/README.md",
+        "rules": "roles/{agent-name}/.cursorrules",
+        "knowledge": "roles/{agent-name}/knowledge/",
+        "docs": "roles/{agent-name}/docs/"
       },
       "actions": [
         "Read configuration file",
