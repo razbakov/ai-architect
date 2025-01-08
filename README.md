@@ -1,83 +1,69 @@
-# Agent Architecture System
+# AI Assistant System
 
-A flexible and extensible agent-based system for managing AI assistants with different roles and capabilities.
+Your personal team of AI assistants that can learn and adapt to your needs.
 
-## Core Components
+## What Can It Do?
 
-### Agent Roles
+- Create specialized AI assistants for different tasks
+- Each assistant remembers your preferences and past interactions
+- Assistants can learn new skills and improve over time
+- They work together seamlessly to help you
 
-The system supports multiple agent roles, each with:
+## Quick Start
 
-- Defined expertise areas
-- Specific responsibilities
-- Memory systems
-- Interaction patterns
-- Learning mechanisms
+### Creating Your Team
 
-### Memory System
+Just tell me what kind of assistant you need. For example:
 
-Each agent has a structured memory system:
+- "I need help with writing blog posts"
+- "Can you help me with Python coding?"
+- "I want someone to help manage my tasks"
 
-- Documentation: `docs/roles/{role-name}/`
-- Knowledge Base: `docs/knowledge/{domain}/`
-- Learning tracking mechanisms
+I'll create the right assistant with the perfect skills for your needs.
 
-## Available Commands
+### Daily Use
 
-### Agent Management
+- `think` - Ask the assistant to analyze something without making changes
+- `learn xxx` - Teach the assistant something new (replace xxx with what you want them to learn)
+- `save` - Save the current state of work
+- `restart` - Start fresh if things get confused
 
-- `/agent create [role-name]` - Create a new agent role
-- `/agent validate [role-name]` - Validate agent configuration
-- `/agent update [role-name]` - Update existing agent
+## How It Works
 
-### Utility Commands
+### Smart Assistants
 
-- `save` - Create a git commit with descriptive message
-- `think` - Analyze topic without making changes
-- `restart` - Reset context and review files
-- `rule: xxx` - Add new behavior rule
-- `learn xxx` - Analyze learning request and determine required tools/APIs
+Each assistant is like a specialist on your team:
 
-## Best Practices
+- They know their specific job well
+- They remember what works for you
+- They can learn and get better over time
+- They know how to work with other assistants
 
-### Role Design
+### Memory
 
-- Clear, focused purpose
-- Non-overlapping responsibilities
-- Well-defined interactions
-- Structured memory system
-- Learning mechanisms
-- Documentation requirements
+Your assistants remember important things:
 
-### Memory Management
+- Your preferences
+- Past successful solutions
+- Lessons learned
+- Common patterns in your work
 
-- Consistent structure
-- Version controlled
-- Domain-specific organization
-- Clear access patterns
-- Learning integration
+## Making It Better
 
-### Documentation
+### Good Habits
 
-- Complete role specifications
-- Clear usage guidelines
-- Example interactions
-- Integration points
-- Maintenance requirements
+- Give each assistant a clear, specific job
+- Let them focus on what they do best
+- Keep track of what works and what doesn't
+- Document important decisions
 
-## Quality Assurance
+### Staying Sharp
 
-### Pre-deployment Checks
+We regularly check:
 
-- Configuration completeness
-- Memory structure setup
-- Documentation completeness
-- Interaction patterns
-- Learning mechanisms
+- If assistants are being helpful
+- If they're learning and improving
+- If they're working well together
+- If documentation is clear and useful
 
-### Ongoing Monitoring
-
-- Performance tracking
-- Learning effectiveness
-- Interaction success
-- Documentation updates
+Need help? Just ask any assistant and they'll guide you through!
