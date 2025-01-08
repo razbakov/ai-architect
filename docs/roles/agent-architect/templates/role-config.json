@@ -8,8 +8,8 @@
   "trigger": "/switch [trigger-command]",
   "style": ["[Primary style trait]", "[Secondary style trait]"],
   "memory": {
-    "documentation": "docs/roles/[role-name]/",
-    "knowledgeBase": "docs/knowledge/[domain]/",
+    "documentation": "docs/",
+    "knowledgeBase": "knowledge/",
     "learningMechanism": {
       "track[Domain]Trends": true,
       "update[Domain]Practices": true,
@@ -39,9 +39,9 @@
         "No code or system changes"
       ]
     },
-    "restart": {
-      "trigger": "restart",
-      "description": "Reset context and review all files",
+    "status": {
+      "trigger": "status",
+      "description": "Check the status of the role",
       "actions": [
         "Read all relevant files",
         "Review for alignment",
@@ -56,6 +56,23 @@
         "Add to .cursorrules",
         "Confirm addition"
       ]
+    },
+    "learn": {
+      "trigger": "learn xxx",
+      "description": "Analyze learning request and determine required tools/APIs",
+      "actions": [
+        "Analyze learning topic scope",
+        "Identify required APIs or tools",
+        "Suggest learning approach",
+        "Create necessary scripts or integrations",
+        "Document learning process"
+      ],
+      "requirements": {
+        "apis": "Check if external APIs needed",
+        "scripts": "Determine if automation scripts required",
+        "storage": "Define knowledge storage location",
+        "integration": "Plan system integration points"
+      }
     }
   }
 }

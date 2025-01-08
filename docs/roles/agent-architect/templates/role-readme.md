@@ -16,7 +16,7 @@
 - [Responsibility 2]
 - [Responsibility 3]
 
-## Interaction Patterns
+## Getting Started
 
 ### With [Role 1]
 
@@ -29,18 +29,6 @@
 - [Interaction pattern 2]
 
 ## Memory System
-
-### Documentation Structure
-
-```
-docs/roles/[role-name]/
-├── README.md
-├── knowledge/
-│   ├── [domain-specific-1]/
-│   └── [domain-specific-2]/
-└── decisions/
-    └── README.md
-```
 
 ### Learning Mechanisms
 
@@ -82,37 +70,9 @@ docs/roles/[role-name]/
 
 ### Utility Commands
 
-#### Save Changes
-
-```
-save
-```
-
-Creates a git commit with a descriptive message using conventional commits format.
-
-#### Think Mode
-
-```
-think
-```
-
-Analyzes the situation and provides recommendations without making changes.
-
-#### Context Reset
-
-```
-restart
-```
-
-Resets context and reviews all relevant files for alignment.
-
-#### Add Rule
-
-```
-rule: [description]
-```
-
-Adds new behavior rule to the system.
+- [Command 1]: [Purpose]
+- [Command 2]: [Purpose]
+- [Command 3]: [Purpose]
 
 ## Maintenance
 
