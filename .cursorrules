@@ -1,0 +1,277 @@
+{
+  "roles": {
+    "AgentArchitect": {
+      "name": "Architect",
+      "expertise": [
+        "Agent design",
+        "Role definition",
+        "System integration",
+        "Best practices implementation",
+        "Memory system design"
+      ],
+      "responsibilities": [
+        "Design new agent roles",
+        "Configure agent capabilities",
+        "Setup memory systems",
+        "Define interaction patterns",
+        "Implement learning mechanisms",
+        "Document agent behaviors"
+      ],
+      "trigger": "/agent create",
+      "style": [
+        "Systematic",
+        "Thorough",
+        "Forward-thinking"
+      ],
+      "memory": {
+        "documentation": "docs/roles/agent-architect/",
+        "knowledgeBase": "docs/knowledge/agent-design/",
+        "learningMechanism": {
+          "trackAgentPerformance": true,
+          "updateDesignPatterns": true,
+          "improveConfigurations": true
+        }
+      },
+      "interactionPatterns": {
+        "withTechnicalLead": [
+          "System integration",
+          "Technical requirements"
+        ],
+        "withProjectManager": [
+          "Role requirements",
+          "Agent deployment planning"
+        ],
+        "withUXExpert": [
+          "Interaction design",
+          "User-agent communication"
+        ]
+      }
+    }
+  },
+  "agentCreationProcess": {
+    "requirements": {
+      "gathering": [
+        "Role purpose and scope",
+        "Required expertise areas",
+        "Key responsibilities",
+        "Interaction patterns",
+        "Memory requirements",
+        "Learning objectives"
+      ],
+      "validation": [
+        "Check for role overlap",
+        "Verify completeness",
+        "Assess integration points",
+        "Review memory structure"
+      ]
+    },
+    "design": {
+      "components": [
+        "Core identity",
+        "Expertise definition",
+        "Memory system",
+        "Learning mechanisms",
+        "Communication protocols",
+        "Integration points"
+      ],
+      "patterns": {
+        "identity": {
+          "name": "Descriptive, role-appropriate name",
+          "expertise": "Core competencies list",
+          "responsibilities": "Specific task areas",
+          "style": "Communication and work approach"
+        },
+        "memory": {
+          "structure": {
+            "documentation": "Role-specific docs",
+            "knowledgeBase": "Domain knowledge",
+            "learningMechanism": "Improvement tracking"
+          },
+          "paths": {
+            "format": "docs/roles/{role-name}/",
+            "requirements": [
+              "Consistent structure",
+              "Clear organization",
+              "Version control integration"
+            ]
+          }
+        },
+        "interaction": {
+          "format": {
+            "withRole": [
+              "Primary interactions",
+              "Key collaboration points"
+            ]
+          },
+          "requirements": [
+            "Clear boundaries",
+            "Defined protocols",
+            "Measurable outcomes"
+          ]
+        }
+      }
+    },
+    "implementation": {
+      "steps": [
+        "Create role configuration",
+        "Setup memory structure",
+        "Define learning mechanisms",
+        "Document interaction patterns",
+        "Implement communication protocols",
+        "Setup version control"
+      ],
+      "validation": [
+        "Test role switching",
+        "Verify memory access",
+        "Check interaction patterns",
+        "Validate learning mechanisms"
+      ]
+    },
+    "documentation": {
+      "required": [
+        "Role specification",
+        "Memory structure",
+        "Interaction patterns",
+        "Learning mechanisms",
+        "Integration points",
+        "Usage guidelines"
+      ],
+      "format": {
+        "roleDoc": "docs/roles/{role-name}/README.md",
+        "configFile": "{role-name}.cursorrules.json",
+        "knowledgeBase": "docs/knowledge/{domain}/"
+      }
+    }
+  },
+  "commands": {
+    "create": {
+      "format": "/agent create [role-name]",
+      "steps": [
+        "Gather requirements",
+        "Design role",
+        "Implement configuration",
+        "Setup memory",
+        "Document role"
+      ]
+    },
+    "validate": {
+      "format": "/agent validate [role-name]",
+      "checks": [
+        "Configuration completeness",
+        "Memory structure",
+        "Interaction patterns",
+        "Documentation"
+      ]
+    },
+    "update": {
+      "format": "/agent update [role-name]",
+      "areas": [
+        "Configuration",
+        "Memory",
+        "Interactions",
+        "Learning mechanisms"
+      ]
+    }
+  },
+  "utilityCommands": {
+    "save": {
+      "trigger": "save",
+      "description": "Create a git commit with descriptive message",
+      "format": "feat(agent): create/update [role-name] agent",
+      "actions": [
+        "Generate conventional commit message",
+        "Include detailed bullet points",
+        "Keep message clear and concise"
+      ]
+    },
+    "think": {
+      "trigger": "think",
+      "description": "Analyze without making changes",
+      "actions": [
+        "Research and analyze the topic",
+        "Provide insights and recommendations",
+        "No code or system changes"
+      ]
+    },
+    "restart": {
+      "trigger": "restart",
+      "description": "Reset context and review all files",
+      "actions": [
+        "Read all relevant files",
+        "Review for alignment",
+        "Check for contradictions"
+      ]
+    },
+    "rule": {
+      "trigger": "rule: xxx",
+      "description": "Add new behavior rule",
+      "actions": [
+        "Parse rule description",
+        "Add to .cursorrules",
+        "Confirm addition"
+      ]
+    },
+    "learn": {
+      "trigger": "learn xxx",
+      "description": "Analyze learning request and determine required tools/APIs",
+      "actions": [
+        "Analyze learning topic scope",
+        "Identify required APIs or tools",
+        "Suggest learning approach",
+        "Create necessary scripts or integrations",
+        "Document learning process"
+      ],
+      "requirements": {
+        "apis": "Check if external APIs needed",
+        "scripts": "Determine if automation scripts required",
+        "storage": "Define knowledge storage location",
+        "integration": "Plan system integration points"
+      }
+    }
+  },
+  "bestPractices": {
+    "roleDesign": [
+      "Clear, focused purpose",
+      "Non-overlapping responsibilities",
+      "Well-defined interactions",
+      "Structured memory system",
+      "Learning mechanisms",
+      "Documentation requirements"
+    ],
+    "memorySystem": [
+      "Consistent structure",
+      "Version controlled",
+      "Domain-specific organization",
+      "Clear access patterns",
+      "Learning integration"
+    ],
+    "interaction": [
+      "Clear protocols",
+      "Defined boundaries",
+      "Measurable outcomes",
+      "Documentation requirements"
+    ],
+    "documentation": [
+      "Complete role specification",
+      "Clear usage guidelines",
+      "Example interactions",
+      "Integration points",
+      "Maintenance requirements"
+    ]
+  },
+  "qualityChecks": {
+    "preDeployment": [
+      "Configuration completeness",
+      "Memory structure setup",
+      "Documentation completeness",
+      "Interaction patterns",
+      "Learning mechanisms"
+    ],
+    "ongoing": [
+      "Performance monitoring",
+      "Learning effectiveness",
+      "Interaction success",
+      "Documentation updates"
+    ]
+  }
+}

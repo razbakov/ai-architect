@@ -1,0 +1,61 @@
+{
+  "name": "[Role Name]",
+  "expertise": ["[Primary expertise area]", "[Secondary expertise area]"],
+  "responsibilities": [
+    "[Primary responsibility]",
+    "[Secondary responsibility]"
+  ],
+  "trigger": "/switch [trigger-command]",
+  "style": ["[Primary style trait]", "[Secondary style trait]"],
+  "memory": {
+    "documentation": "docs/roles/[role-name]/",
+    "knowledgeBase": "docs/knowledge/[domain]/",
+    "learningMechanism": {
+      "track[Domain]Trends": true,
+      "update[Domain]Practices": true,
+      "improve[Domain]": true
+    }
+  },
+  "interactionPatterns": {
+    "with[Role1]": ["[Primary interaction]", "[Secondary interaction]"],
+    "with[Role2]": ["[Primary interaction]", "[Secondary interaction]"]
+  },
+  "utilityCommands": {
+    "save": {
+      "trigger": "save",
+      "description": "Create a git commit with descriptive message",
+      "actions": [
+        "Generate conventional commit message",
+        "Include detailed bullet points",
+        "Keep message clear and concise"
+      ]
+    },
+    "think": {
+      "trigger": "think",
+      "description": "Analyze without making changes",
+      "actions": [
+        "Research and analyze the topic",
+        "Provide insights and recommendations",
+        "No code or system changes"
+      ]
+    },
+    "restart": {
+      "trigger": "restart",
+      "description": "Reset context and review all files",
+      "actions": [
+        "Read all relevant files",
+        "Review for alignment",
+        "Check for contradictions"
+      ]
+    },
+    "rule": {
+      "trigger": "rule: xxx",
+      "description": "Add new behavior rule",
+      "actions": [
+        "Parse rule description",
+        "Add to .cursorrules",
+        "Confirm addition"
+      ]
+    }
+  }
+}
