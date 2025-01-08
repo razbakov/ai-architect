@@ -1,85 +1,85 @@
-# ✨ Your AI Dream Team
+# ✨ Architect: Your AI Agent Framework
 
-Meet your personal team of AI assistants that evolve and adapt to your unique style! 🌱
+Design, build, and evolve your perfect AI team with Architect - a powerful framework for creating specialized AI agents that learn and adapt! 🌱
 
-## 🎯 What's Special About Us?
+## 🎯 What Makes Architect Special?
 
-- 🤖 Build your perfect team of AI specialists
-- 🧠 We learn and remember your preferences
-- 📈 Get better and smarter over time
-- 🤝 Work together seamlessly to help you succeed
+- 🏗️ Create custom AI agents with defined roles and expertise
+- 🧠 Built-in memory systems for continuous learning
+- 🤝 Define clear interaction patterns between agents
+- 📚 Structured knowledge management
+- ⚡️ Automated validation and quality checks
 
 ## 🚀 Getting Started
 
-### 👥 Building Your Team
+### 👥 Creating Agents
 
-Just tell me what you need help with! For example:
+Use the agent creation command:
 
-- ✍️ "I want to write amazing blog posts"
-- 👩‍💻 "Help me become a better programmer"
-- 📋 "I need a productivity wizard"
+```bash
+/agent create [role-name]
+```
 
-I'll bring in the perfect assistant with exactly the skills you need!
+For example:
 
-### 💫 Working Together
+- ✍️ `/agent create writer`
+- 👩‍💻 `/agent create code-reviewer`
+- 📋 `/agent create task-manager`
 
-Try these magic words:
+### 💫 Core Commands
 
-- 🤔 "Think about..." - Get insights without making changes
-- 🤖� "Learn about..." - Discover capabilities and rules of any agent
-- 🔍 "Review [path]" - Get a detailed analysis of any agent's setup
-- 💾 "Save this" - Keep track of our progress
-- 🔄 "Let's start fresh" - Begin with a clean slate
+- 🎯 `/agent create [role]` - Design new agent roles
+- 🔍 `/agent validate [role]` - Check agent configuration
+- 🔄 `/agent update [role]` - Modify existing agents
 
-For example, try:
+### 🛠️ Utility Commands
 
-- "Review docs/roles/code-reviewer/ for best practices"
-- "Review docs/roles/writer/ and suggest improvements"
-- "Review docs/roles/task-manager/ focusing on learning capabilities"
+- 🤔 `think` - Analyze without making changes
+- 📚 `learn xxx` - Discover capabilities and tools
+- 🔍 `review [path]` - Analyze agent configuration
+- 💾 `save` - Create descriptive git commits
+- 🔄 `restart` - Reset context and review
 
-When reviewing, I'll check:
+## 🎮 System Architecture
 
-- 📄 Configuration (config.json)
-- 📚 Documentation (README.md)
-- ⚙️ Rules (.cursorrules)
-- 📂 Knowledge base (docs/knowledge/)
+### 🌟 Key Components
 
-## 🎮 How We Work
+- 📐 **Role Definition**: Clear purpose and responsibilities
+- 🧠 **Memory System**: Structured knowledge storage
+- 🤝 **Interaction Patterns**: Define agent collaboration
+- 📚 **Learning Mechanisms**: Continuous improvement
+- ✅ **Quality Checks**: Automated validation
 
-### 🌟 Your Smart Companions
+### 🗂️ Directory Structure
 
-Think of us as your dream team:
+```
+docs/
+├── roles/
+│   └── [role-name]/
+│       ├── README.md
+│       └── .cursorrules
+└── knowledge/
+    └── [domain]/
+```
 
-- 🎯 Each of us is a specialist in our field
-- 🎓 We learn what works best for you
-- 📈 We keep getting better
-- 🤝 We collaborate seamlessly
+## 🌈 Best Practices
 
-### 🧠 Our Memory
+### ⚡️ Agent Design
 
-We remember what matters:
+- 🎯 Clear, focused purpose
+- 📋 Non-overlapping responsibilities
+- 🤝 Well-defined interactions
+- 🧠 Structured memory systems
+- 📚 Complete documentation
 
-- ⭐️ Your favorite approaches
-- 💡 Solutions that worked great
-- 📝 Valuable lessons
-- 🔄 Your common workflows
+### 🔍 Quality Standards
 
-## 🌈 Making Magic Together
+- ✅ Configuration completeness
+- 📐 Memory structure setup
+- 📚 Documentation requirements
+- 🤝 Interaction patterns
+- 📈 Learning mechanisms
 
-### ⚡️ Best Practices
+Ready to architect your AI team? Let's build something amazing! 🚀
 
-- 🎯 Give us clear goals
-- 💪 Let us do what we do best
-- 📊 Track our success together
-- 📝 Keep notes on what works
-
-### 🔍 Quality Time
-
-We're always working on:
-
-- 🎯 Being super helpful
-- 📚 Learning new tricks
-- 🤝 Teamwork makes the dream work
-- 📖 Keeping everything clear and useful
-
-Need a hand? Just chat with us - we're here to help! 🌟
+Need help? Just ask - I'm here to guide you through the process! 🌟
