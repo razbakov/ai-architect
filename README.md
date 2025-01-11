@@ -38,7 +38,7 @@ For example:
 - 📚 `learn xxx` - Discover capabilities and tools
 - 🔍 `review [path]` - Analyze agent configuration
 - 💾 `save` - Create descriptive git commits
-- 🔄 `restart` - Reset context and review
+- 🔄 `status` - Check all relevant documentation, create a cross-reference index, and find misalignments
 
 ## 🎮 System Architecture
 

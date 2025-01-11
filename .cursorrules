@@ -192,9 +192,9 @@
         "No code or system changes"
       ]
     },
-    "restart": {
-      "trigger": "restart",
-      "description": "Reset context and review all files",
+    "status": {
+      "trigger": "status",
+      "description": "Check agent status",
       "actions": [
         "Read all relevant files",
         "Review for alignment",
